@@ -16,3 +16,5 @@ namespace ClientCustomizations;
 @@access(listSchemaVersions, Access.internal);
 @@access(getSchemaPropertiesByContent, Access.internal);
 @@access(registerSchema, Access.internal);
+
+@@clientName(ServiceVersion, "SchemaRegistryVersion", "java");
